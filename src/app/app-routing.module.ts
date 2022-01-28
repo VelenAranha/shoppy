@@ -1,10 +1,11 @@
-import { RouterModule, Routes } from '@angular/router'
-import { NgModule } from '@angular/core'
+import { NgModule } from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
+import {MatBadgeModule} from '@angular/material/badge'
 
-const routes: Routes = []
+const routes: Routes = [];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule],
+  imports: [RouterModule.forRoot(routes),MatBadgeModule],
+  exports: [RouterModule]
 })
-export class AppRoutingModule {}
+export class AppRoutingModule { }
