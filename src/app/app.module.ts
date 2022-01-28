@@ -1,8 +1,8 @@
 import { AppComponent } from './app.component'
 import { AppRoutingModule } from './app-routing.module'
 import { BrowserModule } from '@angular/platform-browser'
-import { NgModule } from '@angular/core';
 import { MenuComponent } from './menu/menu.component'
+import { NgModule } from '@angular/core'
 
 @NgModule({
   declarations: [AppComponent, MenuComponent],
